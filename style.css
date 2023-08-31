@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-image: url(jakarta.jpg); */
+    background-color: #0abcf9;
+    background-image: linear-gradient(-200deg, #0abcf9 0%, #2c69d1 74%);
+    min-height: 100vh;
+    overflow: hidden;
+    z-index: -200;
+}
+
+.login-content {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 15px;
+    width: 240px;
+    height: 220px;
+    margin: auto;
+    position: relative;
+    top: 150px;
+    cursor: pointer;
+    backdrop-filter: blur(4px);
+    box-shadow: 0.8px 0.8px 0.4px rgba(0, 0, 0, .6);
+    transition: 1s;
+}
+
+.login-content:hover {
+    border: none;
+    -webkit-box-shadow: 10px 11px 28px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 11px 28px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 11px 28px 0px rgba(0, 0, 0, 0.75);
+}
+
+.login-content #p1 {
+    color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 35%;
+    position: relative;
+    width: 60px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    transition: 1.3s;
+    cursor: pointer;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.login-content #p1:hover {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    background-color: transparent;
+    color: rgb(61, 213, 248);
+}
+
+.check input {
+    color: white;
+}
+
+.login-form {
+    padding: 5px;
+    display: flex;
+    position: relative;
+    left: -5%;
+    flex-direction: column;
+    width: 250px;
+    margin: 5px;
+    height: 200px;
+    z-index: 9;
+
+}
+
+.login-content #p3 {
+    font-size: 12px;
+    color: white;
+}
+
+
+label {
+    cursor: pointer;
+    height: 6px;
+    margin-bottom: 2px;
+    font: 12px white arial, sans-serif;
+    display: flex;
+    position: relative;
+    top: 7px;
+    right: 4px;
+    align-items: center;
+}
+
+.input #user,
+#pw {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1.3px solid white;
+    padding: 5px;
+    width: 155px;
+    position: relative;
+    left: 16%;
+    margin-bottom: 2px;
+}
+
+#checkbox {
+    color: white;
+}
+
+#checkbox::selection {
+    color: white;
+    background-color: transparent;
+}
+
+.login-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.input #pw::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+}
+
+.input #user::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+    text-shadow: 1px 1px 2px rgba(0,0,0, black);
+    cursor: pointer;
+}
+
+#user,
+#pw {
+    color: white;
+}
+
+#p3 a {
+    color: white;
+    font-weight: 200px;
+    padding: 2px;
+    transition: 0.6s;
+}
+
+#p3 a:hover {
+    text-decoration: none;
+    color: aliceblue;
+    background-color: black;
+    padding: 2px;
+}
+
+.login-form button {
+    width: 50px;
+    height: 23px;
+    border: 0.1px solid black;
+    padding: 2px;
+    background-color: transparent;
+}
+
+.login-form button:hover {
+    color: aliceblue;
+    background-color: black;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+/* CONTENT HERE */
+container-content {
+    width: 100%;
+    height: 100%;
+}
+
+#city {
+    width: 1250px;
+    height: 500px;
+    position: relative;
+    top: -150px;
+    z-index: -1;
+}
+
+#cloud1 {
+    z-index: -2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -700px;
+}
+
+#cloud2 {
+    z-index: -2;
+    position: relative;
+    top: -700px;
+    left: 590px;
+    
+}
+
+#cloud3 {
+    z-index: -2;
+    position: relative;
+    top: -650px;
+    left: 10px;
+}
+
+#cloud4 {
+    z-index: -2;
+    position: relative;
+    top: -600px;
+    left: 20px;
+    width: 65px;
+    height: 35px;
+}
+
+#sun {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -800px;
+    left: 600px;
+    z-index: -2;
+}
+
+@keyframes awan {
+    0% {
+
+    }
+
+    50% {
+        transform: scale(2px);
+    }
+
+    100% {
+
+    }
+}
